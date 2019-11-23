@@ -1,0 +1,7 @@
+require "bigdecimal"
+
+PI = BigDecimal("3.141592653589793238462643383279502884197169399375105820974944592307816406286208998")
+
+puts "kelas PI adalah #{PI.class()}"
+
+puts "PI * 2 = #{PI * 2}"
